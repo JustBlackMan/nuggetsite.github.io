@@ -1,0 +1,128 @@
+body{
+    background: #000000;  /* fallback for old browsers */ 
+    background: -webkit-linear-gradient(to right, #306ee9, #a9c3f7);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #306ee9, #a9c3f7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+
+#titulo{
+    text-align: center;
+    padding: 10px;
+    
+}
+
+#htitulo {
+    margin: 0;
+    padding-bottom: 1%;
+    grid-column: 1;
+    grid-row: 1;
+    z-index: 1;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 200%;
+    text-transform: uppercase;
+    animation: glow 2s ease-in-out infinite alternate;
+    text-align: center;
+  }
+
+@keyframes glow {
+    from {
+      text-shadow: 0 0 30px #ffffff;
+    }
+    to {
+      text-shadow: 0 0 400px #ffffff, 0 0 20px #ffffff;
+    }
+  }
+
+
+
+
+
+
+
+#items{
+    text-align: center;
+    padding-top: 5%;
+}
+#kits {
+    margin: 5%;
+    list-style: none;
+}
+
+#divkit1 {
+    margin: 0%;
+
+}
+
+#lkit1img{
+    text-align: center;
+    list-style: none;
+
+}
+
+#lkit1p{
+    text-align: center;
+    list-style: none;
+}
+
+
+
+
+
+
+
+#divkit2 {
+    margin: 2%;
+
+}
+
+#lkit2img{
+    text-align: center;
+    list-style: none;
+
+}
+
+#lkit2p{
+    text-align: center;
+    list-style: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#credits{
+    text-align: right;
+    padding-top: 10%;
+}
+
+#credits h1{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 100%;
+    text-align:center;
+}
